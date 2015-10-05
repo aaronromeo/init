@@ -64,7 +64,7 @@ fancy_echo "Installing git, for source control management ..."
   install_if_needed git
 
 fancy_echo "Installing base ruby build dependencies ..."
-  sudo aptitude build-dep -y ruby1.9.3
+  sudo aptitude build-dep -y ruby2.2.3
 
 fancy_echo "Installing libraries for common gem dependencies ..."
   sudo aptitude install -y libxslt1-dev libcurl4-openssl-dev libksba8 libksba-dev libqtwebkit-dev libreadline-dev
@@ -152,7 +152,7 @@ ruby_install_from_source() {
 }
 
 chruby_from_source
-ruby_version="$(curl -sSL http://ruby.thoughtbot.com/latest)"
+ruby_version="$(curl -sSL https://raw.githubusercontent.com/jdbrew/init/master/ruby-version)"
 
 fancy_echo "Installing ruby-install for super easy installation of rubies..."
   ruby_install_from_source
