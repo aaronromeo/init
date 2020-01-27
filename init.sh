@@ -71,7 +71,7 @@ fancy_echo "Installing git, for source control management ..."
 install_if_needed git
 
 fancy_echo "Installing libraries for common gem dependencies ..."
-sudo aptitude install -y autoconf bison build-essential libssl-dev libyaml-dev libreadline6-dev zlib1g-dev libncurses5-dev libffi-dev libgdbm3 libgdbm-dev
+sudo aptitude install -y autoconf bison build-essential libssl-dev libyaml-dev libreadline6-dev zlib1g-dev libncurses5-dev libffi-dev libgdbm-dev
 
 fancy_echo "Installing ctags, to index files for vim tab completion of methods, classes, variables ..."
   install_if_needed exuberant-ctags
