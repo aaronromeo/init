@@ -28,7 +28,10 @@ Databases:
 * redis
 
 # Install
-`bash <(wget -qO- https://raw.githubusercontent.com/guillorrr/init/master/init.sh) 2>&1 | tee ~/init.log`
+`bash <(wget -qO- https://raw.githubusercontent.com/aaronromeo/init/master/init.sh) 2>&1 | tee ~/init.log`
 
 # Thanks
-Based on [kenyonj](https://github.com/kenyonj/init) and [yuczhou](https://github.com/yuczhou/init)
+Based on 
+* [kenyonj](https://github.com/kenyonj/init)
+* [yuczhou](https://github.com/yuczhou/init)
+* [guillorrr](https://github.com/guillorrr/init)
