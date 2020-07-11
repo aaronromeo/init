@@ -78,7 +78,7 @@ fancy_echo "Installing ctags, to index files for vim tab completion of methods, 
 
 fancy_echo "Installing vim ..."
   install_if_needed vim
-  sh <(curl https://raw.githubusercontent.com/jdbrew/spf13-vim/3.0/bootstrap.sh -L)
+  sh <(curl https://raw.githubusercontent.com/spf13/spf13-vim/3.0/bootstrap.sh -L)
 
 fancy_echo "Installing tmux, to save project state and switch between projects ..."
   install_if_needed tmux
